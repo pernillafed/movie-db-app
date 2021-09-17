@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333338;
+    color: #EEE;
+}
+
+/* Styling for logo/brand name on Navigation component */
+.new-font {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    opacity: 70%;
+}
+
+.hover-shadow:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px #111);
+    transition: 0.1s;
+}
+
+.hover-text-color:hover {
+    cursor: pointer;
+    color: rgb(13, 202, 240);
+    transition: 0.3s;
+}
